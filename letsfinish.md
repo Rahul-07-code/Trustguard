@@ -15,7 +15,8 @@
 | **Git Repository Root** | `C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL` |
 | **Target Remote URL** | `https://github.com/Rahul-07-code/Trustguard.git` |
 | **Current Branch** | `main` |
-| **Target Remote Status** | Verified accessible via `git ls-remote` (clean, 0 remote heads) |
+| **Local Commit Hash** | `bfa8f51b7160634240aa74f5a9296f2745e32e41` |
+| **Publication Outcome** | `SUCCESS` — Pushed to `https://github.com/Rahul-07-code/Trustguard.git` on branch `main` |
 | **Sibling Workspace Items** | `minorTrust\.venv` (Virtual environment), `minorTrust\fixed.zip` (516 MB archive), `minorTrust.zip` (62 MB archive) — all safely isolated outside project Git root. |
 
 ---
@@ -246,9 +247,10 @@ The following assets are strictly protected and excluded from version control:
 ## 8. GitHub Publication Report
 
 - **Remote URL:** `https://github.com/Rahul-07-code/Trustguard.git`
-- **Git Root:** `C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL`
-- **Initial Branch:** `main`
-- **Staged File Set:** Safe project source code, configuration YAMLs, FastAPI application, React frontend source, analysis reports, and documentation.
+- **Branch Pushed:** `main`
+- **Commit Hash:** `bfa8f51b7160634240aa74f5a9296f2745e32e41` (plus documentation update commit)
+- **Publication Status:** `SUCCESS` — Published safely without force-push; verified against remote `origin/main`.
+- **Staged & Published File Set:** Safe project source code, configuration YAMLs, FastAPI application, React frontend source, analysis reports, and documentation.
 - **Excluded Sensitive/Large Artifacts:**
   - `dataset/CICIOT23_21CLASSES/train_21.csv` (1.59 GB)
   - `dataset/CICIOT23_21CLASSES/validation_21.csv` (342 MB)
