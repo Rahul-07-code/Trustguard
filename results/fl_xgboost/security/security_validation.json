@@ -1,0 +1,6 @@
+{
+  "AES_PASS": true,
+  "HMAC_PASS": true,
+  "HMAC_TAMPER_DETECTED": true,
+  "TLS_E2E_PASS": true
+}

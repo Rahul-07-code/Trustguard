@@ -1,0 +1,23 @@
+# Reproducibility Checklist
+
+- [x] Dataset identified
+- [x] Dataset hashes recorded
+- [ ] Train/validation/test split documented (process not verifiable)
+- [x] 21 classes documented
+- [ ] Class-selection procedure documented
+- [x] Preprocessing path documented
+- [ ] No test leakage identified historically
+- [x] Duplicate audit completed
+- [x] Near-duplicate audit completed as a bounded sample
+- [x] Feature leakage audit completed
+- [x] Model configuration recorded
+- [x] Random seed recorded
+- [x] Original model hash recorded
+- [x] Independent evaluation completed
+- [x] Reported metrics reproduced
+- [x] Confusion matrix generated
+- [x] Error analysis completed
+- [x] Statistical confidence calculated
+- [x] Hardware recorded
+- [x] Resource limits respected
+- [x] Negative findings documented

@@ -1,0 +1,12 @@
+{
+  "model": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\model\\xgboost_21class_final.json",
+    "sha256": "03b1144778ed8da4e183341ec888f14a279c4199b38bb3a8a694b0292a528664",
+    "bytes": 21716248
+  },
+  "label_mapping": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\model\\label_mapping.json",
+    "sha256": "b1aa8e3be3e4b249cba846aead23e344103f724b29a5cf8176c4839b0d4bb2d7",
+    "bytes": 565
+  }
+}

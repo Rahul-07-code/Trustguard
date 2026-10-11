@@ -1,0 +1,23 @@
+{
+  "BenignTraffic": 0,
+  "DDoS-ACK_Fragmentation": 1,
+  "DDoS-HTTP_Flood": 2,
+  "DDoS-ICMP_Flood": 3,
+  "DDoS-ICMP_Fragmentation": 4,
+  "DDoS-PSHACK_Flood": 5,
+  "DDoS-RSTFINFlood": 6,
+  "DDoS-SYN_Flood": 7,
+  "DDoS-SlowLoris": 8,
+  "DDoS-SynonymousIP_Flood": 9,
+  "DDoS-TCP_Flood": 10,
+  "DDoS-UDP_Flood": 11,
+  "DDoS-UDP_Fragmentation": 12,
+  "DoS-HTTP_Flood": 13,
+  "DoS-SYN_Flood": 14,
+  "DoS-TCP_Flood": 15,
+  "DoS-UDP_Flood": 16,
+  "Mirai-greeth_flood": 17,
+  "Mirai-greip_flood": 18,
+  "Mirai-udpplain": 19,
+  "VulnerabilityScan": 20
+}

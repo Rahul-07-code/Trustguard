@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.9996815498828744,
+  "accuracy_95_percent_normal_approximation": [
+    0.9996490183585521,
+    0.9997140814071966
+  ],
+  "macro_f1": 0.997024707232144,
+  "macro_f1_bootstrap_95_percent_percentile": [
+    0.9963837199113795,
+    0.997665745988722
+  ],
+  "bootstrap_replicates": 100,
+  "seed": 42
+}

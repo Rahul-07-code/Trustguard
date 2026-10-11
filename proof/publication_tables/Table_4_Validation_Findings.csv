@@ -1,0 +1,7 @@
+area,status
+Metric reproduction,PASS
+Preprocessing in located training path,PASS
+Split provenance,NOT VERIFIABLE
+21-class selection rationale,NOT VERIFIABLE
+Near-duplicate audit,WARNING: sampled
+Feature provenance,WARNING: upstream provenance absent

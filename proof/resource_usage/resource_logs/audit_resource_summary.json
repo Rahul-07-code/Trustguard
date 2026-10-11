@@ -1,0 +1,8 @@
+{
+  "audit_runtime_seconds": 83.413,
+  "final_process_rss_gb": 1.8808,
+  "system_ram_gb": 15.715,
+  "ram_limit_gb": 14.0,
+  "ram_status": "PASS",
+  "method": "Final process RSS snapshot; original training trace is preserved in results/resource_usage/."
+}

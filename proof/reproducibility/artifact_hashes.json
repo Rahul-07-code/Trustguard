@@ -1,0 +1,42 @@
+{
+  "train": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\train_21.csv",
+    "sha256": "ed57c149e56a182d0485d4ff97d7dee6ec6ddc917edb772564856fa7cbb294aa",
+    "bytes": 1597329466
+  },
+  "validation": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\validation_21.csv",
+    "sha256": "f3e03e9a5a989bf2f41295ce76dff00daf5c55a7bbe22b75f8a4a89a57aa843d",
+    "bytes": 342282769
+  },
+  "test": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\test_21.csv",
+    "sha256": "f1e5de3903426bb99632724f75ff529ecbf6a3a2522f256db0fa30fe849bea1a",
+    "bytes": 342352646
+  },
+  "model": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\model\\xgboost_21class_final.json",
+    "sha256": "03b1144778ed8da4e183341ec888f14a279c4199b38bb3a8a694b0292a528664",
+    "bytes": 21716248
+  },
+  "label_mapping": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\model\\label_mapping.json",
+    "sha256": "b1aa8e3be3e4b249cba846aead23e344103f724b29a5cf8176c4839b0d4bb2d7",
+    "bytes": 565
+  },
+  "label_encoder": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\label_encoder_21.pkl",
+    "sha256": "3d4f1ff74c081878acbb25c7f60766d0fbc421cfdc5393a8453da9c00fd66404",
+    "bytes": 2259
+  },
+  "model_config": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\config\\model_config.json",
+    "sha256": "1f9c48e1a415521153b6f7633634950bdf4b47c698ecd31d007066fc0a6b6f42",
+    "bytes": 2100
+  },
+  "evaluation_metrics": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\results\\metrics\\final_metrics.json",
+    "sha256": "d52a80074fa855d2446c1ad91338550050ae71e9147e5a39175259d094575fbd",
+    "bytes": 4416
+  }
+}

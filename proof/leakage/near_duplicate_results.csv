@@ -1,0 +1,2 @@
+comparison,sample_size,distance_min,distance_median,distance_p01,distance_p99,distance_zero_count
+test_to_train_first_5000_rows,5000,0.0,0.0008670955139677972,4.129530850605079e-07,5.69566895484925,31

@@ -1,0 +1,4 @@
+operation,fit_source,evidence
+CSV feature loading,none,scripts/train_xgboost.py
+label mapping,sorted labels across all split reports,scripts/train_xgboost.py; not a feature transformation
+label_encoder_21.pkl,UNKNOWN,artifact exists but is not loaded

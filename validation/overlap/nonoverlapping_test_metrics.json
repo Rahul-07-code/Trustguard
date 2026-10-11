@@ -1,0 +1,152 @@
+{
+  "accuracy": 0.9996705379968892,
+  "macro_precision": 0.9967843836921256,
+  "macro_recall": 0.9970457398508431,
+  "macro_f1": 0.99690851095873,
+  "weighted_precision": 0.9996709070476436,
+  "weighted_recall": 0.9996705379968892,
+  "weighted_f1": 0.9996706239698173,
+  "rows": 1098761,
+  "errors": 362,
+  "classification_report": {
+    "BenignTraffic": {
+      "precision": 0.9999241418547317,
+      "recall": 0.9999620694886967,
+      "f1-score": 0.9999431053120673,
+      "support": 26364.0
+    },
+    "DDoS-ACK_Fragmentation": {
+      "precision": 0.9992791234140715,
+      "recall": 0.9998557414887478,
+      "f1-score": 0.9995673492933371,
+      "support": 6932.0
+    },
+    "DDoS-HTTP_Flood": {
+      "precision": 0.9955423476968797,
+      "recall": 0.9809663250366032,
+      "f1-score": 0.9882005899705014,
+      "support": 683.0
+    },
+    "DDoS-ICMP_Flood": {
+      "precision": 0.9999766797842881,
+      "recall": 0.9999708499003067,
+      "f1-score": 0.9999737648338002,
+      "support": 171526.0
+    },
+    "DDoS-ICMP_Fragmentation": {
+      "precision": 0.9990768094534712,
+      "recall": 0.9987080103359173,
+      "f1-score": 0.9988923758537936,
+      "support": 10836.0
+    },
+    "DDoS-PSHACK_Flood": {
+      "precision": 0.9999796452161169,
+      "recall": 0.9999898225044781,
+      "f1-score": 0.9999847338344028,
+      "support": 98256.0
+    },
+    "DDoS-RSTFINFlood": {
+      "precision": 1.0,
+      "recall": 0.9999690277820795,
+      "f1-score": 0.9999845136512164,
+      "support": 96861.0
+    },
+    "DDoS-SYN_Flood": {
+      "precision": 0.9996393871642437,
+      "recall": 0.9994025545941492,
+      "f1-score": 0.9995209568500595,
+      "support": 97080.0
+    },
+    "DDoS-SlowLoris": {
+      "precision": 0.9656301145662848,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.9744013212221305,
+      "support": 600.0
+    },
+    "DDoS-SynonymousIP_Flood": {
+      "precision": 0.9992332357451554,
+      "recall": 0.9997907657971823,
+      "f1-score": 0.9995119230232883,
+      "support": 86028.0
+    },
+    "DDoS-TCP_Flood": {
+      "precision": 0.9995935635241737,
+      "recall": 0.999935317544654,
+      "f1-score": 0.9997644113285815,
+      "support": 108221.0
+    },
+    "DDoS-UDP_Flood": {
+      "precision": 0.999822991141861,
+      "recall": 0.9997922133891536,
+      "f1-score": 0.9998076020286442,
+      "support": 129941.0
+    },
+    "DDoS-UDP_Fragmentation": {
+      "precision": 0.9992710307625018,
+      "recall": 0.9983976693372177,
+      "f1-score": 0.9988341591372778,
+      "support": 6865.0
+    },
+    "DoS-HTTP_Flood": {
+      "precision": 0.9964932787843367,
+      "recall": 0.9964932787843367,
+      "f1-score": 0.9964932787843367,
+      "support": 1711.0
+    },
+    "DoS-SYN_Flood": {
+      "precision": 0.9995678834519939,
+      "recall": 0.9990744930278475,
+      "f1-score": 0.9993211273400535,
+      "support": 48622.0
+    },
+    "DoS-TCP_Flood": {
+      "precision": 0.999844619161565,
+      "recall": 0.9993322048112314,
+      "f1-score": 0.9995883463172529,
+      "support": 64391.0
+    },
+    "DoS-UDP_Flood": {
+      "precision": 0.9996727954594078,
+      "recall": 0.9997105389010547,
+      "f1-score": 0.9996916668239795,
+      "support": 79458.0
+    },
+    "Mirai-greeth_flood": {
+      "precision": 0.9987362567926198,
+      "recall": 0.9986941870261162,
+      "f1-score": 0.9987152214663325,
+      "support": 23740.0
+    },
+    "Mirai-greip_flood": {
+      "precision": 0.998475277717273,
+      "recall": 0.9984209093384154,
+      "f1-score": 0.9984480927877154,
+      "support": 18365.0
+    },
+    "Mirai-udpplain": {
+      "precision": 0.9997196785647543,
+      "recall": 0.9998131015792917,
+      "f1-score": 0.9997663878895482,
+      "support": 21402.0
+    },
+    "VulnerabilityScan": {
+      "precision": 0.9829931972789115,
+      "recall": 0.9863481228668942,
+      "f1-score": 0.9846678023850085,
+      "support": 879.0
+    },
+    "accuracy": 0.9996705379968892,
+    "macro avg": {
+      "precision": 0.9967843836921256,
+      "recall": 0.9970457398508431,
+      "f1-score": 0.99690851095873,
+      "support": 1098761.0
+    },
+    "weighted avg": {
+      "precision": 0.9996709070476436,
+      "recall": 0.9996705379968892,
+      "f1-score": 0.9996706239698173,
+      "support": 1098761.0
+    }
+  }
+}

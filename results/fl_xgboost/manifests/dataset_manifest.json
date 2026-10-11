@@ -1,0 +1,36 @@
+{
+  "files": [
+    "train_21.csv",
+    "validation_21.csv",
+    "test_21.csv"
+  ],
+  "total_rows": 7703943,
+  "train_rows": 5392858,
+  "val_rows": 1155488,
+  "test_rows": 1155597,
+  "features": 46,
+  "classes": 21,
+  "class_distribution": {
+    "DDoS-ICMP_Flood": 848088,
+    "DDoS-UDP_Flood": 637558,
+    "DDoS-TCP_Flood": 528499,
+    "DDoS-PSHACK_Flood": 481254,
+    "DDoS-SYN_Flood": 478653,
+    "DDoS-RSTFINFlood": 475441,
+    "DDoS-SynonymousIP_Flood": 422083,
+    "DoS-UDP_Flood": 390422,
+    "DoS-TCP_Flood": 314174,
+    "DoS-SYN_Flood": 237573,
+    "BenignTraffic": 129538,
+    "Mirai-greeth_flood": 116133,
+    "Mirai-udpplain": 104814,
+    "Mirai-greip_flood": 88821,
+    "DDoS-ICMP_Fragmentation": 53046,
+    "DDoS-UDP_Fragmentation": 34169,
+    "DDoS-ACK_Fragmentation": 33581,
+    "DoS-HTTP_Flood": 8487,
+    "VulnerabilityScan": 4396,
+    "DDoS-HTTP_Flood": 3371,
+    "DDoS-SlowLoris": 2757
+  }
+}

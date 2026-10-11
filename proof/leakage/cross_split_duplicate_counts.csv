@@ -1,0 +1,4 @@
+left,right,feature_hash_intersection,complete_row_hash_intersection,left_feature_rows_affected,right_feature_rows_affected,left_complete_rows_affected,right_complete_rows_affected,left_rows,right_rows
+train,validation,56693,56693,56693,56693,56693,56693,5392858,1155488
+train,test,56836,56836,56836,56836,56836,56836,5392858,1155597
+validation,test,12178,12178,12178,12178,12178,12178,1155488,1155597

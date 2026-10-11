@@ -1,0 +1,5 @@
+item,value
+Python,"3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]"
+XGBoost,2.1.4
+Model,C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL\results\model\xgboost_21class_final.json
+SHA256 model,03b1144778ed8da4e183341ec888f14a279c4199b38bb3a8a694b0292a528664

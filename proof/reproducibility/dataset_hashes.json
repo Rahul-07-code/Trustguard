@@ -1,0 +1,17 @@
+{
+  "train": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\train_21.csv",
+    "sha256": "ed57c149e56a182d0485d4ff97d7dee6ec6ddc917edb772564856fa7cbb294aa",
+    "bytes": 1597329466
+  },
+  "validation": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\validation_21.csv",
+    "sha256": "f3e03e9a5a989bf2f41295ce76dff00daf5c55a7bbe22b75f8a4a89a57aa843d",
+    "bytes": 342282769
+  },
+  "test": {
+    "path": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\TrustGuard-FL\\dataset\\CICIOT23_21CLASSES\\test_21.csv",
+    "sha256": "f1e5de3903426bb99632724f75ff529ecbf6a3a2522f256db0fa30fe849bea1a",
+    "bytes": 342352646
+  }
+}

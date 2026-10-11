@@ -1,0 +1,13 @@
+{
+  "within_split_feature_hash_duplicates": {
+    "train": 132091,
+    "validation": 6192,
+    "test": 6267
+  },
+  "within_split_complete_row_hash_duplicates": {
+    "train": 132091,
+    "validation": 6192,
+    "test": 6267
+  },
+  "method": "64-bit pandas row hashes; target columns excluded for feature hashes."
+}

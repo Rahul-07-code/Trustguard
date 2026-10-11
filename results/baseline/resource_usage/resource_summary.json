@@ -1,0 +1,12 @@
+{
+  "peak_ram_gb": 11.8253,
+  "peak_ram_percent": 75.3,
+  "peak_gpu_memory_gb": 2.6416,
+  "peak_gpu_utilization_percent": 96.0,
+  "ram_limit_gb": 14.0,
+  "ram_status": "PASS",
+  "training_seconds": 272.861,
+  "evaluation_seconds": 3.88,
+  "total_execution_seconds": 380.368,
+  "gpu_training_confirmed": true
+}

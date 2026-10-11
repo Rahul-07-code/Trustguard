@@ -1,0 +1,6 @@
+Python: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+Platform: Windows-11-10.0.26200-SP0
+XGBoost: 2.1.4
+CUDA runtime (PyTorch): 12.1
+GPU: NVIDIA GeForce RTX 4060 Laptop GPU
+XGBoost build: {"BUILTIN_PREFETCH_PRESENT": false, "CUDA_VERSION": [12, 4], "DEBUG": false, "MM_PREFETCH_PRESENT": true, "THRUST_VERSION": [2, 3, 2], "USE_CUDA": true, "USE_DLOPEN_NCCL": false, "USE_FEDERATED": false, "USE_NCCL": false, "USE_OPENMP": true, "USE_RMM": false, "libxgboost": "C:\\Users\\rahul\\OneDrive\\Desktop\\TrustAI\\minorTrust\\.venv\\Lib\\site-packages\\xgboost\\lib\\xgboost.dll"}

@@ -1,0 +1,5 @@
+Python: 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]
+Platform: Windows-11-10.0.26200-SP0
+XGBoost: 2.1.4
+Model: C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL\results\model\xgboost_21class_final.json
+Runtime seconds: 102.081

@@ -1,0 +1,41 @@
+{
+  "pairs": [
+    {
+      "left": "train",
+      "right": "validation",
+      "feature_hash_intersection": 56693,
+      "complete_row_hash_intersection": 56693,
+      "left_feature_rows_affected": 56693,
+      "right_feature_rows_affected": 56693,
+      "left_complete_rows_affected": 56693,
+      "right_complete_rows_affected": 56693,
+      "left_rows": 5392858,
+      "right_rows": 1155488
+    },
+    {
+      "left": "train",
+      "right": "test",
+      "feature_hash_intersection": 56836,
+      "complete_row_hash_intersection": 56836,
+      "left_feature_rows_affected": 56836,
+      "right_feature_rows_affected": 56836,
+      "left_complete_rows_affected": 56836,
+      "right_complete_rows_affected": 56836,
+      "left_rows": 5392858,
+      "right_rows": 1155597
+    },
+    {
+      "left": "validation",
+      "right": "test",
+      "feature_hash_intersection": 12178,
+      "complete_row_hash_intersection": 12178,
+      "left_feature_rows_affected": 12178,
+      "right_feature_rows_affected": 12178,
+      "left_complete_rows_affected": 12178,
+      "right_complete_rows_affected": 12178,
+      "left_rows": 1155488,
+      "right_rows": 1155597
+    }
+  ],
+  "method": "Streaming 64-bit hashes over complete rows and feature-only rows."
+}

@@ -1,0 +1,5 @@
+model=C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL\results\model\xgboost_21class_final.json
+test=C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL\dataset\CICIOT23_21CLASSES\test_21.csv
+rows=1155597
+errors=368
+completed=Thu Oct  1 23:22:13 2026

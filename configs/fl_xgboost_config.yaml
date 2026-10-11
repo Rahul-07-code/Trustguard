@@ -1,0 +1,73 @@
+experiment:
+  name: trustguard_fl_xgboost
+  random_seed: 42
+  num_clients: 3
+  num_rounds: 3
+  smoke_test_rows_per_client: 20000
+  full_experiment_enabled: false
+
+dataset:
+  root: dataset/CICIOT23_21CLASSES
+  train: train_21.csv
+  validation: validation_21.csv
+  test: test_21.csv
+  feature_count: 46
+  class_count: 21
+  target_column: label
+  excluded_columns:
+    - label
+    - label_encoded
+  partition_method: deterministic contiguous shards of the prepared train partition
+  provenance_warning: prepared partitions have exact cross-split overlap and no organization identifiers
+
+federated_xgboost:
+  protocol: xgboost_native_federated_collective_histogram
+  tree_method: hist
+  objective: multi:softprob
+  eval_metric: mlogloss
+  max_depth: 6
+  learning_rate: 0.08
+  min_child_weight: 2
+  subsample: 1.0
+  colsample_bytree: 1.0
+  max_bin: 64
+  n_jobs_per_client: 2
+  device: cuda
+  early_stopping_rounds: 0
+  forbidden_aggregation: FedAvg_tree_weights
+
+security:
+  payload_encryption: AES-256-GCM
+  message_authentication: HMAC-SHA-256
+  transport: TLS/mTLS
+  key_source: generated local demo key files outside source control
+  separate_aes_and_hmac_keys: true
+  log_secrets: false
+
+isolation_forest:
+  enabled: true
+  n_estimators: 200
+  contamination: auto
+  random_seed: 42
+  calibration_split: validation
+  evaluation_split: test
+  threshold_selection: calibration_only
+
+resources:
+  hard_ram_limit_gb: 15.0
+  preferred_ram_limit_gb: 14.0
+  monitor_interval_seconds: 2.0
+  max_parallel_clients: 1
+  stream_csv: true
+  chunk_rows: 50000
+  checkpoint_every_round: true
+
+paths:
+  result_root: results/fl_xgboost
+  models: results/fl_xgboost/models
+  rounds: results/fl_xgboost/rounds
+  logs: results/fl_xgboost/logs
+  security: results/fl_xgboost/security
+  unknown_attack: results/fl_xgboost/unknown_attack
+  resources: results/fl_xgboost/resources
+  reports: results/fl_xgboost/reports
