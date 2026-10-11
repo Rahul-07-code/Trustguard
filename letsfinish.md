@@ -21,7 +21,7 @@
 
 ---
 
-## 2. Environment & Toolchains
+## 2. Environment & Toolchains11111111111
 
 ### 2.1 Python Environment
 - **Discovered Environment:** Sibling `.venv` directory located at `C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\.venv`.
@@ -305,3 +305,109 @@ Create the standalone remote networking layer:
 3. Add client registration and API authentication tokens so only approved clients can participate.
 4. Connect the active server state to the existing FastAPI routes (`api/main.py`) so the React dashboard shows live connected clients and real security audit events.
 ```
+
+---
+
+## 11. Implementation & Verification Report (Phase 1 — Phase 11 Completed)
+
+### 11.1 Completed Architecture & File Deliverables
+
+1. **Enterprise SOC Dashboard Interface (`frontend/`):**
+   - Coherent SIEM/SOC desktop interface designed with dark graphite theme, restrained semantic accents, and zero decorative bloat.
+   - 8 Persistent Operational Views:
+     - `Overview`: Dynamic KPIs (99.90% Accuracy, 0.9870 Macro F1, 7.01 GB Peak RAM, Sub-Ensemble Margin Sharing), Cryptographic Defense Matrix, active alerts.
+     - `Live Clients`: Authenticated edge node fleet inventory with live token registration, error telemetry, search and status filtering.
+     - `Federated Learning`: 14-stage cryptographic round lifecycle visualizer, convergence trajectory, and round execution controls.
+     - `Security Telemetry`: Interactive cryptographic testbed with live execution of AES-256-GCM, HMAC-SHA-256 bit-flip tamper rejection, and Isolation Forest poisoning quarantine.
+     - `Audit Trail`: Append-only, persistent JSONL audit ledger viewer (`results/fl_xgboost/security/audit_trail.jsonl`) with search, layer filtering, and raw JSON payload modal inspector.
+     - `Model Analytics`: Intrusion classification metrics across 21 CICIoT2023 attack classes, convergence curves, and drag-and-drop CSV global inference classifier.
+     - `System Health`: Continuous host monitoring enforcing the strict 14.0 GB memory ceiling, worker count, disk availability, and research artifact integrity.
+     - `Settings`: Dynamic API base URL configuration for multi-laptop Wi-Fi LAN setup, with connection status feedback and step-by-step launch commands.
+
+2. **Networked Federated Learning Coordinator & Standalone Worker:**
+   - `src/fl/protocol.py`: Pydantic wire models for authenticated envelopes, registration, assignments, and submissions.
+   - `src/fl/audit.py`: Thread-safe, persistent JSONL audit logger.
+   - `src/fl/state.py`: Thread-safe coordinator state manager with sliding-window replay protection cache (rejecting duplicate nonces and timestamp skew > 300s).
+   - `src/fl/server.py`: Central coordinator handling AES-256-GCM decryption, HMAC verification, replay validation, Isolation Forest anomaly quarantine, and Sub-Ensemble Margin Sharing aggregation.
+   - `src/fl/client.py` & `client_worker.py`: Standalone CLI client worker for remote laptops on LAN/Wi-Fi.
+   - `src/security/tls_utils.py`: Added LAN TLS certificate authority and server certificate generation with Subject Alternative Names (SANs) for verified IP/DNS hostname validation.
+   - `api/main.py`: Connected all state, audit, and cryptographic operations to real server-side execution.
+
+### 11.2 Automated Verification & Test Results
+
+1. **Python Security & Protocol Suite (`tests/test_fl_security.py`):**
+   ```text
+   pytest tests/test_fl_security.py -v
+   ============================== 6 passed in 2.84s ==============================
+   - test_aes_encryption_roundtrip: PASSED
+   - test_hmac_tamper_rejection: PASSED
+   - test_client_registration_and_auth: PASSED
+   - test_replay_protection: PASSED
+   - test_audit_logger_persistence: PASSED
+   - test_end_to_end_submission_pipeline: PASSED
+   ```
+
+2. **Playwright E2E Browser Test Suite (`frontend/tests/soc-dashboard.spec.ts`):**
+   ```text
+   npx playwright test
+   Running 11 tests using 10 workers
+   - 1. Application starts and renders branding and 8-tab navigation shell: PASSED
+   - 2. Disconnected banner is displayed when coordinator is offline: PASSED
+   - 3. Overview tab renders real operational KPI metrics and server state: PASSED
+   - 4. Live Clients inventory displays nodes and supports search filtering: PASSED
+   - 5. Federated Learning tab shows 14-stage lifecycle pipeline: PASSED
+   - 6. Security Telemetry page renders interactive cryptographic sandboxes: PASSED
+   - 7. Audit Trail page renders persistent JSONL records with inspection: PASSED
+   - 8. Model Analytics page renders confusion matrix and performance benchmarks: PASSED
+   - 9. System Health page displays CPU, RAM ceiling, and process telemetry: PASSED
+   - 10. Settings page displays network parameters and allows API base configuration: PASSED
+   - 11. Responsive mobile viewport layout operates without crashing: PASSED
+   ============================== 11 passed (7.9s) ==============================
+   ```
+
+3. **Frontend Production Build:**
+   ```text
+   npm run build
+   vite v8.3.2 building client environment for production...
+   ✓ 2462 modules transformed.
+   ✓ built in 703ms (0 errors)
+   ```
+
+4. **Cryptographic Demo (`scripts/demo_security.py`):**
+   ```text
+   Core security demo: ALL TESTS PASSED
+   ```
+
+### 11.3 Multi-Device LAN Deployment Guide
+
+#### On the Central Coordinator Laptop (Host):
+1. **Find Local IPv4 Address:**
+   ```powershell
+   ipconfig
+   # Note IPv4 Address (e.g., 192.168.1.15)
+   ```
+2. **Start FastAPI Backend (Listening on LAN):**
+   ```powershell
+   Set-Location "C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL"
+   & "..\.venv\Scripts\python.exe" -m uvicorn api.main:app --host 0.0.0.0 --port 8000
+   ```
+3. **Start SOC Frontend:**
+   ```powershell
+   Set-Location "C:\Users\rahul\OneDrive\Desktop\TrustAI\minorTrust\TrustGuard-FL\frontend"
+   npm run dev -- --host 0.0.0.0 --port 5173
+   ```
+   Open `http://localhost:5173` in your browser.
+
+#### On Friend's Remote Laptop (Client Node):
+1. **Connect to Same Wi-Fi Network.**
+2. **Clone / Copy Client Worker Script:**
+   Only `client_worker.py` and `src/` are required. No need to copy the 2.27 GB central dataset.
+3. **Run Client Worker:**
+   ```powershell
+   python client_worker.py --server-url http://192.168.1.15:8000 --client-id client-02 --client-name "Friend's Remote Laptop"
+   ```
+4. **Observe in Host SOC Dashboard:**
+   - Client appears under **Live Clients** with status `CONNECTED`.
+   - Update submission passes through the 14-stage cryptographic lifecycle.
+   - Audit trail persistently logs `client_authenticated`, `hmac_verification_passed`, and `update_accepted`.
+

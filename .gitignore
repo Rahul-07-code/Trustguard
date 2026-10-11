@@ -60,3 +60,14 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# Test Artifacts & Playwright Reports
+playwright-report/
+**/playwright-report/
+test-results/
+**/test-results/
+
+# Runtime Generated State & Keys
+results/fl_xgboost/security/coordinator_keys.json
+results/fl_xgboost/coordinator_state.json
+results/fl_xgboost/security/audit_trail.jsonl
